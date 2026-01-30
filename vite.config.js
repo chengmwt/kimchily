@@ -1,38 +1,41 @@
-import { VitePWA } from 'vite-plugin-pwa';
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { VitePWA } from "vite-plugin-pwa";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), VitePWA({
-    registerType: 'prompt',
-    injectRegister: false,
+  plugins: [
+    react(),
+    VitePWA({
+      registerType: "prompt",
+      injectRegister: false,
 
-    base: "http://chengmwt.github.io/kimchily/",
+      pwaAssets: {
+        disabled: false,
+        config: true,
+      },
 
-    pwaAssets: {
-      disabled: false,
-      config: true,
-    },
+      manifest: {
+        name: "kimchily",
+        short_name: "kimchily",
+        description: "Kimchily authentic kimchi serving Ontario",
+        theme_color: "#ffffff",
+      },
 
-    manifest: {
-      name: 'kimchily',
-      short_name: 'kimchily',
-      description: 'Kimchily authentic kimchi serving Ontario',
-      theme_color: '#ffffff',
-    },
+      workbox: {
+        globPatterns: ["**/*.{js,css,html,svg,png,ico}"],
+        cleanupOutdatedCaches: true,
+        clientsClaim: true,
+      },
 
-    workbox: {
-      globPatterns: ['**/*.{js,css,html,svg,png,ico}'],
-      cleanupOutdatedCaches: true,
-      clientsClaim: true,
-    },
+      devOptions: {
+        enabled: false,
+        navigateFallback: "index.html",
+        suppressWarnings: true,
+        type: "module",
+      },
+    }),
+  ],
 
-    devOptions: {
-      enabled: false,
-      navigateFallback: 'index.html',
-      suppressWarnings: true,
-      type: 'module',
-    },
-  })],
-})
+  base: "/kimchily/",
+});
