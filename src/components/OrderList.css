@@ -1,0 +1,38 @@
+/* Container structure ----------------------------------------------------------------- */
+
+.orderListContainer {
+  display: grid;
+  grid-template-rows: 1.3fr 1fr 1fr 1fr;
+  row-gap: 10px;
+  margin-bottom: 50px;
+  /* padding: 0 50px; */
+}
+
+/* Header ----------------------------------------------------------------- */
+
+.orderListHeader {
+  display: grid;
+  grid-template-columns: 1.7fr 1.3fr 1.3fr;
+}
+
+/* Body --------------------------------------------------------------------- */
+
+.orderListFresh,
+.orderListAged,
+.orderListSpicy {
+  display: grid;
+  grid-template-columns: 1.7fr 1.3fr 1.3fr;
+}
+
+.orderContainer h3 {
+  margin-bottom: 20px;
+}
+
+.orderPrice h4 {
+  text-align: right;
+}
+
+.orderSize {
+  text-align: right;
+}
+

@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Container structure ----------------------------------------------------------------- */
+
+.navContainer {
+  width: 100%;
+  position: fixed; /* Fixed at top of page */
+  top: 0;
+  z-index: 1000;
+  background-color: #921406;
+  height: 60px;
+}
+
+/* Text style specific to Nav-------------------------------- */
+
+.navContainer a {
+  color: #f4e1bd;
+  font-weight: bold;
+  font-size: 1.3em;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.nav {
+  display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  height: 60px;
+  width: 60%;
+  padding-left: 20px;
+}
+
+#navLogo {
+  z-index: 1000;
+  max-width: 50px;
+  margin-right: 20px;
+}
+
+#navLogo img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+
+/* Burger Menu (hidden except in small devices ---------------------------------------- */
+
+
+/* To control the visibility of the burger menu --------------------------------------- */
+.burgerMenu {
+  display: none;
+  position: fixed; /* Fixed at top of page */
+  top: 0;
+  height: 60px;
+  width: 100%;
+}
+
+/* To dictate the structure of the burger menu ----------------------------------------- */
+
+.menuWrapper {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.burgerList {
+  margin-top: -300px;
+  position: fixed;
+  background-color: #921406;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  padding-left: 60px;
+  transition-property: margin-top;
+  transition-duration: .7s;
+  z-index: -1000;
+}
+
+.burgerOpen {
+  display: flex;
+  margin-top: 0;
+  transition-property: margin-top;
+  transition-duration: .7s;
+  z-index: -1000;
+}
+
+
+.burgerList li {
+  margin-bottom: 30px;
+}
+
+
+
+/* Media ------------------------------------------------------------------------ */
+
+
+@media only screen and (max-width: 900px) {
+  .nav {
+    display: none;
+  }
+
+  .burgerMenu {
+    display: block;
+  }
+
+  
+  
+
+}

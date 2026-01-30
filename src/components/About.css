@@ -1,0 +1,84 @@
+/* Container structure ----------------------------------------------------------------- */
+
+.aboutContainer {
+  scroll-margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+}
+
+/* Text style ----------------------------------------------------------------- */
+
+.aboutContainer * {
+  color: #f4e1bd; /* All text yellow */
+  margin-top: 0;
+}
+
+/* Image section of About page ------------------------------------------------- */
+
+.aboutImage {
+  flex: 1;
+  display: flex;
+  height: auto;
+}
+
+.aboutImage img {
+  object-fit: cover;
+  object-position: 10%;
+  height: calc(100vh - 60px);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Text section of About page ---------------------------------------------------- */
+
+.aboutWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f1b12;
+  flex: 2; /* Maintain a 2:1 split with image */
+  padding: 0 50px;
+}
+
+/* Header ----------------------------------------------------------------- */
+
+.aboutHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+/* Brief history on kimchi and family ------------------------------------------------- */
+
+.aboutMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.aboutMessage p {
+  margin-bottom: 10px;
+}
+
+/* Media ------------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 900px) {
+  .aboutContainer {
+    height: auto;
+    min-height: calc(100vh - 60px);
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    max-height: 200px;
+  }
+
+  .aboutWrapper {
+      padding: 50px 40px;
+  }
+}

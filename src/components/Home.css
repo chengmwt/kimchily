@@ -1,0 +1,37 @@
+/* Container structure ----------------------------------------------------------------- */
+
+.homeContainer {
+  scroll-margin-top: 60px; /* This sets the offset for the link */
+  height: calc(100vh - 60px);
+}
+
+
+/* Wrapper to position buttons -------------------------------------------------------- */
+.buttonWrapper {
+  margin-top: 60px;
+  height: 100%;
+  width: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.buttons {
+  margin-bottom: 5%;
+  margin-left: 5%;
+}
+
+
+/* Media ----------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 900px) {
+  .buttons {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 100px 0;
+  }  
+
+  .buttonWrapper {
+    justify-content: center;
+  }
+}

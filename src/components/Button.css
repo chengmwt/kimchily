@@ -1,0 +1,32 @@
+/* Button component for homepage ---------------------------------------------------------- */
+
+.button {
+    margin: 0 5% 10%;
+}
+
+.button:hover {
+    box-shadow: 0 9px 18px 0 rgba(0,0,0,0.6);
+}
+
+.button {
+    margin: 0 20px;
+    background-color: #921406;
+    color: #f4e1bd;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: #921406;
+    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.6);
+}
+
+
+
+/* Media -------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 900px) {
+  .button {
+    font-size: 1rem;
+  }  
+}

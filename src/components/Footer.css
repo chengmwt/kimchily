@@ -1,0 +1,31 @@
+.footer {
+  height: 100px;
+  background-color: #921406;
+  border-top: 1px solid #f4e1bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #f4e1bd;
+}
+
+.footerNav {
+  width: 60%;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerNav a {
+  color: #f4e1bd;
+}
+
+
+
+@media only screen and (max-width: 900px) {
+  .footerNav {
+    width: 80%;
+  }
+}

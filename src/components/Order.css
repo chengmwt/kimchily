@@ -1,0 +1,111 @@
+/* Container structure ----------------------------------------------------------------- */
+
+.orderContainer {
+  scroll-margin-top: 60px;
+  min-height: calc(100vh - 60px);
+  display: flex; /* splits the order list (left) and image (right) */
+}
+
+/* Text style ----------------------------------------------------------------- */
+
+.orderContainer * {
+  color: #921406; /* All text red */
+}
+
+/* Text section of order page ------------------------------------------------ */
+
+.orderWrapper {
+  background-color: #f4e1bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  padding: 0 50px;
+}
+
+/* Header ----------------------------------------------------------------- */
+
+.orderHeader {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+
+/* Service areas (Newcastle, Bowmanville, Orono) ---------------------------- */
+
+.serviceAreas {
+  /* margin: 50px 50px 0; */
+}
+
+.serviceAreas h5{
+    font-style: italic;
+}
+
+#takeout {
+  display: flex;
+  margin-left: -26.5667px;
+  padding-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+/* How to order ---------------------------------------------------------- */
+
+.howToOrder {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.howToOrder #phoneIcon {
+  margin-right: 5px;
+}
+
+  .howToOrder div h3 {
+  margin: 0;
+}
+
+/* Image section of order page ---------------------------------------------- */
+
+.orderPictures {
+  flex: 1;
+  display: flex;
+  height: auto;
+}
+
+.orderPictures img {
+  object-fit: cover;
+  object-position: 40%;
+  height: calc(100vh - 60px);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+/* Media ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 900px) {
+  .orderContainer {
+    height: auto;
+    min-height: calc(100vh - 60px);
+    flex-direction: column;
+    padding: ;
+  }
+
+  .orderWrapper {
+    padding: 50px 40px;
+    /* padding-bottom: 20px; */
+  }
+
+  .orderPictures {
+    max-height: 200px;
+  }
+
+
+
+}
