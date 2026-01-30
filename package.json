@@ -1,5 +1,5 @@
 {
-  "remove homepage data": "homepage http://chengmwt.github.io/kimchily",
+  "homepage": "http://chengmwt.github.io/kimchily",
   "name": "kimchily",
   "private": true,
   "version": "0.0.0",
