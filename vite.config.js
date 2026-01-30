@@ -8,6 +8,8 @@ export default defineConfig({
     registerType: 'prompt',
     injectRegister: false,
 
+    base: "/kimchily",
+
     pwaAssets: {
       disabled: false,
       config: true,
