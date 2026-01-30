@@ -8,7 +8,7 @@ export default defineConfig({
     registerType: 'prompt',
     injectRegister: false,
 
-    base: "http://chengmwt.github.io/kimchily",
+    base: "http://chengmwt.github.io/kimchily/",
 
     pwaAssets: {
       disabled: false,
