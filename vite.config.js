@@ -40,6 +40,4 @@ export default defineConfig({
     }),
   ],
 
-  base: "/kimchily/"
-
 });
