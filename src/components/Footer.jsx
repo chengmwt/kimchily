@@ -33,7 +33,7 @@ const Footer = () => {
               </li>
             </ul>
       </div>
-      <div className="footNotes">2026 by Kimchily</div>
+      <div className="footNotes">2026 by KIMCHILY</div>
     </div>
   );
 };
