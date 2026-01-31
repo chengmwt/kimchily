@@ -21,6 +21,7 @@ export default defineConfig({
         short_name: "",
         description: "",
         theme_color: "#ffffff",
+        display: "browser",
       },
 
       workbox: {
