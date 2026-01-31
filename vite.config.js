@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     VitePWA({
-      disable: true,
 
       registerType: "prompt",
       injectRegister: false,
@@ -22,6 +21,7 @@ export default defineConfig({
         short_name: "kimchily",
         description: "Kimchily authentic kimchi serving Ontario",
         theme_color: "#ffffff",
+        display: "browser"
       },
 
       workbox: {
