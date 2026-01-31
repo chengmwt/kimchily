@@ -17,8 +17,8 @@ export default defineConfig({
       },
 
       manifest: {
-        name: "kimchily",
-        short_name: "kimchily",
+        name: "Kimchily",
+        short_name: "Kimchily",
         description: "Kimchily authentic kimchi serving Ontario",
         theme_color: "#ffffff",
         display: "browser"
