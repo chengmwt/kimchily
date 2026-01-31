@@ -15,12 +15,7 @@ export default defineConfig({
         config: true,
       },
 
-      manifest: {
-        name: "kimchily",
-        short_name: "kimchily",
-        description: "Kimchily authentic kimchi serving Ontario",
-        theme_color: "#ffffff",
-      },
+      manifest: false,
 
       workbox: {
         globPatterns: ["**/*.{js,css,html,svg,png,ico}"],
