@@ -68,12 +68,12 @@ const Contact = () => {
                 </a>
               </div>
               <div className="facebook">
-                <a href="https://www.facebook.com">
+                <a href="https://www.facebook.com/profile.php?id=61586999866782">
                   <img src={facebookIcon} alt="facebookIcon" />
                 </a>
               </div>
               <div className="youtube">
-                <a href="https://www.youtube.com">
+                <a href="https://www.youtube.com/channel/UCnU4_qkfyjHbBduzf-RP-Gg">
                   <img src={youtubeIcon} alt="youtubeIcon" />
                 </a>
               </div>
