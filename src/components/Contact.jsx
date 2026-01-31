@@ -93,12 +93,12 @@ const Contact = () => {
 
           <div className="map">
             <div className="address">
-              <a href="https://maps.app.goo.gl/k52oA5pGkpmgHQUQ9">
+              <a href="https://www.google.com/maps/search/?api=1&query=KIMCHILY%NEWCASTLE%ONTARIO">
                 <p>11 Rogerson St. Newcastle, ON L1B 0W4</p>
               </a>
             </div>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2873.9422797562697!2d-78.60450462307185!3d43.919169071090835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d5a9723b58176b%3A0xaacf6b77d5f8a0aa!2s11%20Rogerson%20St%2C%20Newcastle%2C%20ON%20L1B%200W4!5e0!3m2!1sen!2sca!4v1769616216624!5m2!1sen!2sca"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1436.972274279847!2d-78.6017654!3d43.9191221!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d5a9f08cbe42ff%3A0xfcc6d8bed568d8cb!2sKIMCHILY!5e0!3m2!1sen!2sca!4v1769881281753!5m2!1sen!2sca"
               width="100%"
               height="300"
               style={{ border: 0 }}
