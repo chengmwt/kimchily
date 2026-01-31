@@ -17,11 +17,10 @@ export default defineConfig({
       },
 
       manifest: {
-        name: "Kimchily",
-        short_name: "Kimchily",
-        description: "Kimchily authentic kimchi serving Ontario",
+        name: "",
+        short_name: "",
+        description: "",
         theme_color: "#ffffff",
-        display: "browser"
       },
 
       workbox: {
