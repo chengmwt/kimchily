@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./Nav.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from "../constants/logo.png";
+import logo from "../constants/logo_circle.png";
 
 /* State for burger menu open or closed ----------------------------------------------*/
 const Nav = () => {
