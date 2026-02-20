@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
             <div className="socialIcons">
               <div className="instagram">
-                <a href="https://www.instagram.com/kimchily_kitchen/">
+                <a href="https://www.instagram.com/kimchilykitchen/">
                   <img src={instagramIcon} alt="instagramIcon" />
                 </a>
               </div>
