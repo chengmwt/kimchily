@@ -9,7 +9,7 @@ const MenuItems = () => {
     <div className="menuGrid">
       {/* Fresh Kimchi ----------------------------------------- */}
       <li>
-        <h3>Fresh Kimchi</h3>
+        <h3>Original Kimchi</h3>
         <h4>(Banchan Kimchi) "반찬김치"</h4>
         <img src={fresh_kimchi} alt="fresh kimchi" />
         <p>
