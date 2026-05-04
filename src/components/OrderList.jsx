@@ -25,19 +25,19 @@ const OrderList = () => {
       <div className="orderListAged">
         <h3>Aged Kimchi</h3> {/* Aged Kimchi */}
         <div className="orderPrice">
-          <h4>$7.00</h4>
+          <h4>$8.00</h4>
         </div>
         <div className="orderPrice">
-          <h4>$10.00</h4>
+          <h4>$11.00</h4>
         </div>
       </div>
       <div className="orderListSpicy">
         <h3>Extra Spicy Kimchi</h3> {/* Spicy Kimchi */}
         <div className="orderPrice">
-          <h4>$7.00</h4>
+          <h4>$8.00</h4>
         </div>
         <div className="orderPrice">
-          <h4>$10.00</h4>
+          <h4>$11.00</h4>
         </div>
       </div>
     </div>
