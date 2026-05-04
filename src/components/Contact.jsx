@@ -87,8 +87,8 @@ const Contact = () => {
         <div className="hoursAndLocation">
           <div className="hours" id="hours">
             <h4>Mon - Fri: 10:00AM - 2:00PM </h4>
-            <h4>Sat - Sun: 10:00AM - 4:00PM </h4>
-            <h4>Closed all holidays</h4>
+            <h4>Sat: 9:00AM - 1:00PM </h4>
+            <h4>Closed Sundays and Holidays</h4>
           </div>
 
           <div className="map">
