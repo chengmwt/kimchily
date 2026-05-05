@@ -20,7 +20,7 @@ const Order = () => {
           <div className="inlineOrder">
             <h5>
               <a
-                href="mailto:muffinccc@gmail.com?subject=Your KIMCHILY Order&body=Please enter your contact information below:%0D%0A%0D%0AName = %0D%0AContact Number = %0D%0ADelivery Address (or Pick Up) = %0D%0A%0D%0APlease let us know what you would like to order below%0D%0A%0D%0AOriginal Kimchi (S) = %0D%0AOriginal Kimchi (L) = %0D%0AAged Kimchi (S) = %0D%0AAged Kimchi (L) = %0D%0AExtra Spicy Kimchi (S) = %0D%0AExtra Spicy Kimchi (L) = %0D%0A%0D%0A%0D%0A"
+                href="mailto:muffinccc@gmail.com?subject=Your KIMCHILY Order&body=Please enter your contact information below:%0D%0A%0D%0AName  %0D%0AContact Number  %0D%0ADelivery Address (or Pick Up) = %0D%0A%0D%0APlease let us know what you would like to order below%0D%0A%0D%0AOriginal Kimchi (S) = %0D%0AOriginal Kimchi (L) = %0D%0AAged Kimchi (S) = %0D%0AAged Kimchi (L) = %0D%0AExtra Spicy Kimchi (S) = %0D%0AExtra Spicy Kimchi (L) = %0D%0A%0D%0A%0D%0AThank you for your order!%0D%0A%0D%0AKIMCHILY"
                 target="_blank"
               >
                 <MdMailOutline size="2em" id="phoneIcon" />
