@@ -2,7 +2,7 @@
 
 .orderListContainer {
   display: grid;
-  grid-template-rows: 1.3fr 1fr 1fr 1fr;
+  /* grid-template-rows: 1.3fr 1fr 1fr 1fr; */
   row-gap: 10px;
   margin-bottom: 50px;
   /* padding: 0 50px; */
@@ -28,6 +28,10 @@
   margin-bottom: 20px;
 }
 
+/* .orderPrice {
+  display: flex;
+} */
+
 .orderPrice h4 {
   text-align: right;
 }
@@ -36,3 +40,7 @@
   text-align: right;
 }
 
+/* .qtyInput {
+  width: 70px;
+  margin-left: 40px;
+} */

@@ -43,7 +43,15 @@
     font-style: italic;
 }
 
-#takeout {
+/* #takeout {
+  display: flex;
+  margin-left: -26.5667px;
+  padding-top: 20px;
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+.inlineOrder {
   display: flex;
   margin-left: -26.5667px;
   padding-top: 20px;
@@ -51,14 +59,13 @@
   align-items: center;
 }
 
-
 /* How to order ---------------------------------------------------------- */
 
-.howToOrder {
+/* .howToOrder {
   display: flex;
   margin-top: 50px;
   justify-content: center;
-}
+} */
 
 .howToOrder #phoneIcon {
   margin-right: 5px;

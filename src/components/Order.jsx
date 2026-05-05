@@ -4,6 +4,7 @@ import OrderList from "./OrderList";
 import orderPageKimchi from "../constants/order_page_kimchi.jpeg";
 import { PiMapPinDuotone } from "react-icons/pi";
 import { FiPhone } from "react-icons/fi";
+import { MdMailOutline } from "react-icons/md";
 
 const Order = () => {
   const phoneNumber = "6472102789";
@@ -16,29 +17,47 @@ const Order = () => {
         </div>
         <OrderList />
         <div className="serviceAreas">
-          <h5>
-            Free delivery to Newcastle, Bowmanville, and Orono on orders $35 or
-            more.
-          </h5>
-          <div id="takeout">
+          <div className="inlineOrder">
+            <h5>
+              <a
+                href="mailto:muffinccc@gmail.com?subject=Your KIMCHILY Order&body=Please enter your contact information below:%0D%0A%0D%0AName = %0D%0AContact Number = %0D%0ADelivery Address (or Pick Up) = %0D%0A%0D%0APlease let us know what you would like to order below%0D%0A%0D%0AOriginal Kimchi (S) = %0D%0AOriginal Kimchi (L) = %0D%0AAged Kimchi (S) = %0D%0AAged Kimchi (L) = %0D%0AExtra Spicy Kimchi (S) = %0D%0AExtra Spicy Kimchi (L) = %0D%0A%0D%0A%0D%0A"
+                target="_blank"
+              >
+                <MdMailOutline size="2em" id="phoneIcon" />
+              </a>
+              Email us your order (preferred)
+            </h5>
+          </div>
+          <div className="inlineOrder">
+            <div>
+              <a href={`tel:${phoneNumber}`} title="Phone Number">
+                <FiPhone size="2em" id="phoneIcon" />
+              </a>
+            </div>
+            <div>
+              <h5>
+                You can also text or us at (647)210-2789 to place your order
+                (10:00AM to 2:00PM)
+              </h5>
+            </div>
+          </div>
+          <div id="takeout" className="inlineOrder">
             <div>
               <a href="#hours">
                 <PiMapPinDuotone color="white" size="2em" />
               </a>
             </div>
-            <div>
-              <h5>Takeout available during business hours</h5>
+
+          <div>
+            <h5>Curbside pickup available during business hours</h5>
             </div>
           </div>
-        </div>
-        <div className="howToOrder">
           <div>
-            <a href={`tel:${phoneNumber}`} title="Phone Number">
-              <FiPhone size="2em" id="phoneIcon" />
-            </a>
-          </div>
-          <div>
-            <h3>Call or text us at (647)210-2789 to order</h3>
+
+          <h5>
+            Same day delivery between 6PM to 7PM. <br/>Free delivery to Newcastle, Bowmanville, and Orono on orders $35 or
+            more
+          </h5>
           </div>
         </div>
       </div>
