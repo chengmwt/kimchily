@@ -39,13 +39,13 @@ const Contact = () => {
           {/* New style phone and email ---------------------------------------------------------------- */}
 
           <div className="phoneEmailWrapper">
-            <div className="phoneWrapper">
+            {/* <div className="phoneWrapper">
               <a href={`tel:${phoneNumber}`} title="Phone Number">
                 <FiPhone size="3em" id="phoneIcon" />
               </a>
               <h4>Phone Number</h4>
               <h5>(647)210-2789</h5>
-            </div>
+            </div> */}
 
             <div className="emailWrapper">
               <a href={`mailto:${email}`}>
@@ -86,8 +86,13 @@ const Contact = () => {
         {/* Hours of operation */}
         <div className="hoursAndLocation">
           <div className="hours" id="hours">
-            <h4>Mon - Fri: 10:00AM - 2:00PM </h4>
-            <h4>Sat: 9:00AM - 1:00PM </h4>
+            <h4>Mon - Fri: 7:00AM - 4:00PM </h4>
+            {/* <h4>Mon: 7:00AM - 4:00PM </h4>
+            <h4>Tue: 7:00AM - 4:00PM </h4>
+            <h4>Wed: 7:00AM - 4:00PM </h4>
+            <h4>Thu: 7:00AM - 4:00PM </h4>
+            <h4>Fri: 7:00AM - 4:00PM </h4> */}
+            <h4>Sat: 7:00AM - 11:00AM </h4>
             <h4>Sun: Closed</h4>
             <h4>Closed all Holidays</h4>
           </div>
