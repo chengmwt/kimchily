@@ -59,18 +59,18 @@ const OrderList = () => {
           <h3>Style</h3>
           <div className="orderSize">
             {/* 400g container */}
-            <h3>Regular (400g)</h3>
+            <h3>Regular (500g)</h3>
           </div>
           <div className="orderSize">
             {/* 600g container */}
-            <h3>Large (600g)</h3>
+            <h3>Large (700g)</h3>
           </div>
         </div>
         <div className="orderListFresh">
           {/* Fresh Kimchi */}
           <h3>Original Kimchi</h3>
           <div className="orderPrice">
-            <h4>$7.00</h4>
+            <h4>$10.00</h4>
             {/* <input
               type="text"
               name="Original Kimchi (S)"
@@ -79,7 +79,7 @@ const OrderList = () => {
             /> */}
           </div>
           <div className="orderPrice">
-            <h4>$10.00</h4>
+            <h4>$13.00</h4>
             {/* <input
               type="text"
               name="Original Kimchi (L)"
@@ -92,7 +92,7 @@ const OrderList = () => {
           <h3>Aged Kimchi</h3>
           {/* Aged Kimchi */}
           <div className="orderPrice">
-            <h4>$8.00</h4>
+            <h4>$11.00</h4>
             {/* <input
               type="text"
               name="Aged Kimchi (S)"
@@ -101,7 +101,7 @@ const OrderList = () => {
             /> */}
           </div>
           <div className="orderPrice">
-            <h4>$11.00</h4>
+            <h4>$14.00</h4>
             {/* <input
               type="text"
               name="Aged Kimchi (L)"
@@ -114,7 +114,7 @@ const OrderList = () => {
           <h3>Extra Spicy Kimchi</h3>
           {/* Spicy Kimchi */}
           <div className="orderPrice">
-            <h4>$8.00</h4>
+            <h4>$11.00</h4>
             {/* <input
               type="text"
               name="Extra Spicy Kimchi (S)"
@@ -123,7 +123,7 @@ const OrderList = () => {
             /> */}
           </div>
           <div className="orderPrice">
-            <h4>$11.00</h4>
+            <h4>$14.00</h4>
             {/* <input
               type="text"
               name="Extra Spicy Kimchi (L)"
