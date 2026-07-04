@@ -59,6 +59,18 @@
   align-items: center;
 }
 
+.orderButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orderButton h3 {
+  border: #921406 3px solid;
+  padding: 10px;
+  justify-content: center;
+}
+
 /* How to order ---------------------------------------------------------- */
 
 /* .howToOrder {

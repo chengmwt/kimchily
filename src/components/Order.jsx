@@ -18,20 +18,20 @@ const Order = () => {
         </div>
         <OrderList />
         <div className="serviceAreas">
-          <div className="inlineOrder">
-            <h5>
-              <a
-                href="mailto:kimchilykitchen@gmail.com?subject=Your KIMCHILY Order&body=Please fill in your order details below%0D%0A%0D%0AName:%20%0D%0AContact Number:%20%0D%0ADelivery Address (or Pick Up):%20%0D%0A%0D%0AYour order quantities below%0D%0A%0D%0AOriginal Kimchi (S):%20%0D%0AOriginal Kimchi (L):%20%0D%0AAged Kimchi (S):%20%0D%0AAged Kimchi (L):%20%0D%0AExtra Spicy Kimchi (S):%20%0D%0AExtra Spicy Kimchi (L):%20%0D%0A%0D%0A%0D%0AThank you for your order!%0D%0A%0D%0AKIMCHILY"
-                target="_blank"
-              >
-                <MdMailOutline
+          <div className="orderButton">
+            <a
+              href="mailto:kimchilykitchen@gmail.com?subject=Your KIMCHILY Order&body=Please fill in your order details below%0D%0A%0D%0AName:%20%0D%0AContact Number:%20%0D%0ADelivery Address (or Pick Up):%20%0D%0A%0D%0AYour order quantities below%0D%0A%0D%0AOriginal Kimchi (S):%20%0D%0AOriginal Kimchi (L):%20%0D%0AAged Kimchi (S):%20%0D%0AAged Kimchi (L):%20%0D%0AExtra Spicy Kimchi (S):%20%0D%0AExtra Spicy Kimchi (L):%20%0D%0A%0D%0A%0D%0AThank you for your order!%0D%0A%0D%0AKIMCHILY"
+              target="_blank"
+            >
+              <h3>
+                {/* <MdMailOutline
                   size="2em"
                   id="phoneIcon"
                   style={{ marginRight: "3px" }}
-                />
-                Please click here to email us your order.
-              </a>
-            </h5>
+                /> */}
+                Click here to order!
+              </h3>
+            </a>
           </div>
           <div className="inlineOrder">
             {/* <div>
