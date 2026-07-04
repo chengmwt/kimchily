@@ -89,7 +89,7 @@ const OrderList = () => {
           </div>
         </div>
         <div className="orderListAged">
-          <h3>Aged Kimchi</h3>
+          <h3 className="soldOut">Aged Kimchi</h3>
           {/* Aged Kimchi */}
           <div className="orderPrice">
             <h4>$13.00</h4>

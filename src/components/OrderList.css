@@ -40,6 +40,20 @@
   text-align: right;
 }
 
+.soldOut {
+  /* color: red; */
+  text-decoration-line: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.soldOut::after{
+  content: " (sold out)";
+  color: red;
+  display: inline-block;
+  text-decoration-line: unset;
+  text-decoration-thickness: 0;
+}
+
 /* .qtyInput {
   width: 70px;
   margin-left: 40px;
