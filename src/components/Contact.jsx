@@ -86,15 +86,15 @@ const Contact = () => {
         {/* Hours of operation */}
         <div className="hoursAndLocation">
           <div className="hours" id="hours">
-            <h4>Mon - Fri: 7:00AM - 4:00PM </h4>
+            <h4>Mon - Sun: 9:00AM - 7:00PM </h4>
             {/* <h4>Mon: 7:00AM - 4:00PM </h4>
             <h4>Tue: 7:00AM - 4:00PM </h4>
             <h4>Wed: 7:00AM - 4:00PM </h4>
             <h4>Thu: 7:00AM - 4:00PM </h4>
             <h4>Fri: 7:00AM - 4:00PM </h4> */}
-            <h4>Sat: 7:00AM - 11:00AM </h4>
-            <h4>Sun: Closed</h4>
-            <h4>Closed all Holidays</h4>
+            {/* <h4>Sat: 7:00AM - 11:00AM </h4>
+            <h4>Sun: Closed</h4> */}
+            <h4>Hours may vary on Holidays</h4>
           </div>
 
           <div className="map">

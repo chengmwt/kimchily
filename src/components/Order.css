@@ -113,7 +113,6 @@
     height: auto;
     min-height: calc(100vh - 60px);
     flex-direction: column;
-    padding: ;
   }
 
   .orderWrapper {
