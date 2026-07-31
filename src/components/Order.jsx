@@ -1,7 +1,7 @@
 import React from "react";
 import "./Order.css";
 import OrderList from "./OrderList";
-import orderPageKimchi from "../constants/order_page_kimchi.jpeg";
+import orderPageKimchi from "../constants/order_page_kimchi.webp";
 import { PiMapPinDuotone } from "react-icons/pi";
 import { FiPhone } from "react-icons/fi";
 import { MdMailOutline } from "react-icons/md";

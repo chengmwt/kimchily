@@ -1,8 +1,8 @@
 import React from "react";
 import "./MenuItems.css";
-import fresh_kimchi from "../constants/fresh_kimchi.jpg";
-import aged_kimchi from "../constants/aged_kimchi.jpg";
-import spicy_kimchi from "../constants/spicy_kimchi.jpg";
+import fresh_kimchi from "../constants/fresh_kimchi.webp";
+import aged_kimchi from "../constants/aged_kimchi.webp";
+import spicy_kimchi from "../constants/spicy_kimchi.webp";
 
 const MenuItems = () => {
   return (

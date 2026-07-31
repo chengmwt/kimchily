@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutKimchi from "../constants/about_kimchi.jpeg";
+import aboutKimchi from "../constants/about_kimchi.webp";
 
 const About = () => {
   return (
