@@ -65,8 +65,9 @@
   align-items: center;
 }
 
-.orderButton h3 {
+.orderButton .button {
   border: #921406 3px solid;
+  background-color: transparent;
   padding: 10px;
   justify-content: center;
 }
