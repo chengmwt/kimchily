@@ -68,7 +68,7 @@ const OrderList = () => {
         </div>
         <div className="orderListFresh">
           {/* Fresh Kimchi */}
-          <h3>Original Kimchi</h3>
+          <h3 className="soldOut">Original Kimchi</h3>
           <div className="orderPrice">
             <h4>$12.00</h4>
             {/* <input
@@ -89,7 +89,7 @@ const OrderList = () => {
           </div>
         </div>
         <div className="orderListAged">
-          <h3 className="soldOut">Aged Kimchi</h3>
+          <h3>Aged Kimchi</h3>
           {/* Aged Kimchi */}
           <div className="orderPrice">
             <h4>$13.00</h4>
@@ -111,7 +111,7 @@ const OrderList = () => {
           </div>
         </div>
         <div className="orderListSpicy">
-          <h3>Extra Spicy Kimchi</h3>
+          <h3 className="soldOut">Extra Spicy Kimchi</h3>
           {/* Spicy Kimchi */}
           <div className="orderPrice">
             <h4>$13.00</h4>
