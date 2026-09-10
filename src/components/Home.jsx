@@ -13,7 +13,7 @@ const Home = () => {
       {/* Buttons ------------------------------------------------- */}
       <div className="buttonWrapper">
         <div className="buttons">
-          <Button buttonName="Menu" link="#menu" />
+          <Button buttonName="Menu" link="#kimchiMenu" />
           <Button buttonName="Order" link="#order" />
         </div>
       </div>

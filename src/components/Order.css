@@ -32,11 +32,10 @@
   margin-bottom: 50px;
 }
 
-
 /* Service areas (Newcastle, Bowmanville, Orono) ---------------------------- */
 
-.serviceAreas h5{
-    font-style: italic;
+.serviceAreas h5 {
+  font-style: italic;
 }
 
 /* #takeout {
@@ -53,6 +52,17 @@
   padding-top: 20px;
   justify-content: flex-start;
   align-items: center;
+}
+
+.catering {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.justifyCenter {
+  text-align: center;
 }
 
 .orderButton {
@@ -80,7 +90,7 @@
   margin-right: 5px;
 }
 
-  .howToOrder div h3 {
+.howToOrder div h3 {
   margin: 0;
 }
 
@@ -102,7 +112,6 @@
   z-index: -1;
 }
 
-
 /* Media ------------------------------------------------------------------------ */
 
 @media only screen and (max-width: 900px) {
@@ -120,7 +129,4 @@
   .orderPictures {
     max-height: 200px;
   }
-
-
-
 }

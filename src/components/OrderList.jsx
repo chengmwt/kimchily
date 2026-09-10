@@ -6,45 +6,42 @@ import "./OrderList.css";
 //   e.preventDefault();
 //   console.log(deliveryRequired)
 
-  // // Read the form data
-  // const form = e.target;
-  // const formData = new FormData(form);
+// // Read the form data
+// const form = e.target;
+// const formData = new FormData(form);
 
-  // // // Or you can work with it as a plain object:
-  // // const formJson = Object.fromEntries(formData);
-  // // console.log(formJson);
+// // // Or you can work with it as a plain object:
+// // const formJson = Object.fromEntries(formData);
+// // console.log(formJson);
 
-  // // window.location.href = "mailto:muffinccc@gmail.com"
+// // window.location.href = "mailto:muffinccc@gmail.com"
 
-  // const OrderForm = {
-  //   name: formData.get("name"),
-  //   phone: formData.get("phone number"),
-  //   address: formData.get("address"),
-  //   delivery: formData.get("radioButton"),
-  //   originalSmall: formData.get("originalS"),
-  //   originalLarge: formData.get("originalL"),
-  //   AgedSmall: formData.get("agedS"),
-  //   AgedLarge: formData.get("agedL"),
-  //   SpicySmall: formData.get("spicyS"),
-  //   SpicyLarge: formData.get("spicyL"),
-  // };
+// const OrderForm = {
+//   name: formData.get("name"),
+//   phone: formData.get("phone number"),
+//   address: formData.get("address"),
+//   delivery: formData.get("radioButton"),
+//   originalSmall: formData.get("originalS"),
+//   originalLarge: formData.get("originalL"),
+//   AgedSmall: formData.get("agedS"),
+//   AgedLarge: formData.get("agedL"),
+//   SpicySmall: formData.get("spicyS"),
+//   SpicyLarge: formData.get("spicyL"),
+// };
 
+// console.log(OrderForm);
 
-  // console.log(OrderForm);
-
-  // window.location.href = "mailto:muffinccc@gmail.com?body=${OrderForm}"
+// window.location.href = "mailto:muffinccc@gmail.com?body=${OrderForm}"
 // }
 
-
 const OrderList = () => {
-
   function handleSubmit(e) {
-  // Prevent the browser from reloading the page
-  e.preventDefault();
-  console.log(deliveryRequired)
+    // Prevent the browser from reloading the page
+    e.preventDefault();
+    console.log(deliveryRequired);
   }
 
-  const [deliveryRequired, setDeliveryRequired] = useState('no')
+  const [deliveryRequired, setDeliveryRequired] = useState("no");
 
   return (
     <div className="orderListContainer">
@@ -55,7 +52,10 @@ const OrderList = () => {
         enctype="text/plain"
         onSubmit={handleSubmit}
       > */}
-        <div className="orderListHeader">
+
+      {/* Kimchi Order List -------------------------------------------------- */}
+      <div className="kimchiOrderList">
+        <div className="kimchiOrderListHeader">
           <h3>Style</h3>
           <div className="orderSize">
             {/* 400g container */}
@@ -169,9 +169,68 @@ const OrderList = () => {
           <button type="submit">Submit Order by Email</button>
         </div>
       </form> */}
+      </div>
+
+      {/* Food Order List -------------------------------------------------- */}
+
+      <div className="foodOrderList">
+        <div className="orderListKimchiFriedRice">
+          {/* Fresh Kimchi */}
+          {/* <h3 className="soldOut">Original Kimchi</h3> */}
+          <h3>Kimchi Fried Rice</h3>
+          <div className="orderPrice">
+            <h4>$13.00 (+ drumstick for $2.00)</h4>
+            {/* <input
+              type="text"
+              name="Original Kimchi (L)"
+              placeholder="qty"
+              className="qtyInput"
+            /> */}
+          </div>
+        </div>
+        {/* <div className="orderListKimchiStew">
+          <h3>Spicy Kimchi Chicken Stew</h3>
+          <div className="orderPrice">
+            <h4>$16.00 (+steamed rice for $1.00)</h4>
+          </div>
+        </div> */}
+
+        {/* <h4>Name</h4>
+        <input type="text" name="Name" required/>
+        <h4>Contact Number</h4>{" "}
+        <input
+          type="text"
+          name="Phone Number"
+          required
+        />
+        <h4>Delivery Address </h4>{" "}
+        <input
+          type="text"
+          name="Delivery Address"
+          placeholder="(if applicable)"
+          required={deliveryRequired}
+        />
+        <label>
+          <input
+            type="radio"
+            name="Delivery"
+            value="no"
+            defaultChecked={true}
+            onChange={() => setDeliveryRequired('no')}
+            onClick={console.log('no')}
+          />
+          Pick up
+        </label>
+        <label>
+          <input type="radio" name="Delivery" value="yes" onChange={() => setDeliveryRequired('yes')} onClick={console.log('yes')}/>
+          Delivery
+        </label>
+        <div>
+          <button type="submit">Submit Order by Email</button>
+        </div>
+      </form> */}
+      </div>
     </div>
-
-
   );
 };
 

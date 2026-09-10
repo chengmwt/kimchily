@@ -94,7 +94,7 @@ const Contact = () => {
             <h4>Fri: 7:00AM - 4:00PM </h4> */}
             {/* <h4>Sat: 7:00AM - 11:00AM </h4>
             <h4>Sun: Closed</h4> */}
-            <h4>Hours may vary on Holidays</h4>
+            <h4>Hours may vary on holidays</h4>
           </div>
 
           <div className="map">

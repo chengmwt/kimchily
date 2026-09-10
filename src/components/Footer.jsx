@@ -16,9 +16,14 @@ const Footer = () => {
                   <h5>About</h5>
                 </a>
               </li>
-              <li className="navMenu">
-                <a href="#menu">
-                  <h5>Menu</h5>
+              <li className="navKimchiMenu">
+                <a href="#kimchiMenu">
+                  <h5>Kimchi Menu</h5>
+                </a>
+              </li>
+              <li className="navFoodMenu">
+                <a href="#foodMenu">
+                  <h5>Food Menu</h5>
                 </a>
               </li>
               <li className="navOrder">

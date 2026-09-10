@@ -1,7 +1,8 @@
 import "./App.css";
 import Nav from "./components/Nav";
 import Home from "./components/Home";
-import Menu from "./components/Menu";
+import KimchiMenu from "./components/KimchiMenu";
+import FoodMenu from "./components/FoodMenu"
 import Order from "./components/Order";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -13,7 +14,8 @@ function App() {
       <Nav />
       <Home />
       <About />
-      <Menu />
+      <KimchiMenu />
+      <FoodMenu />
       <Order />
       <Contact />
       <Footer />

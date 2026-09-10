@@ -26,8 +26,8 @@
 
 .nav {
   display: flex;
- justify-content: space-between;
- align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav ul {
@@ -36,7 +36,7 @@
   justify-content: space-around;
   margin: 0;
   height: 60px;
-  width: 60%;
+  width: 70%;
   padding-left: 20px;
 }
 
@@ -51,9 +51,7 @@
   vertical-align: middle;
 }
 
-
 /* Burger Menu (hidden except in small devices ---------------------------------------- */
-
 
 /* To control the visibility of the burger menu --------------------------------------- */
 .burgerMenu {
@@ -75,7 +73,7 @@
 }
 
 .burgerList {
-  margin-top: -300px;
+  margin-top: -380px;
   position: fixed;
   background-color: #921406;
   top: 60px;
@@ -83,7 +81,7 @@
   width: 100%;
   padding-left: 60px;
   transition-property: margin-top;
-  transition-duration: .7s;
+  transition-duration: 0.7s;
   z-index: -1000;
 }
 
@@ -91,19 +89,15 @@
   display: flex;
   margin-top: 0;
   transition-property: margin-top;
-  transition-duration: .7s;
+  transition-duration: 0.7s;
   z-index: -1000;
 }
-
 
 .burgerList li {
   margin-bottom: 30px;
 }
 
-
-
 /* Media ------------------------------------------------------------------------ */
-
 
 @media only screen and (max-width: 900px) {
   .nav {
@@ -113,8 +107,4 @@
   .burgerMenu {
     display: block;
   }
-
-  
-  
-
 }

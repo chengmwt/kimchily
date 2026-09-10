@@ -8,14 +8,14 @@
   /* padding: 0 50px; */
 }
 
-/* Header ----------------------------------------------------------------- */
+/* Kimchi Header ----------------------------------------------------------------- */
 
-.orderListHeader {
+.kimchiOrderListHeader {
   display: grid;
   grid-template-columns: 1.7fr 1.3fr 1.3fr;
 }
 
-/* Body --------------------------------------------------------------------- */
+/* Kimchi Body --------------------------------------------------------------------- */
 
 .orderListFresh,
 .orderListAged,
@@ -27,10 +27,6 @@
 .orderContainer h3 {
   margin-bottom: 20px;
 }
-
-/* .orderPrice {
-  display: flex;
-} */
 
 .orderPrice h4 {
   text-align: right;
@@ -46,6 +42,10 @@
   text-decoration-thickness: 2px;
 }
 
+.kimchiOrderList {
+  border-bottom: 2px solid #921406;
+}
+
 .soldOut::after{
   content: " (sold out)";
   color: red;
@@ -58,3 +58,12 @@
   width: 70px;
   margin-left: 40px;
 } */
+
+
+/* Food List ---------------------------------------------------------------------- */
+
+.orderListKimchiFriedRice,
+.orderListKimchiStew {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

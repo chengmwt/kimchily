@@ -42,8 +42,11 @@ const Nav = () => {
           <li className="navAbout">
             <a href="#about">About</a> {/* About us */}
           </li>
-          <li className="navMenu">
-            <a href="#menu">Menu</a> {/* Menu */}
+          <li className="navKimchiMenu">
+            <a href="#kimchiMenu">Kimchi Menu</a> {/* Menu */}
+          </li>
+          <li className="navFoodMenu">
+            <a href="#foodMenu">Food Menu</a> {/* Menu */}
           </li>
           <li className="navOrder">
             <a href="#order">Order</a> {/* Order */}
@@ -76,9 +79,14 @@ const Nav = () => {
                   <h5>About</h5>
                 </a>
               </li>
-              <li className="navMenu">
-                <a href="#menu">
-                  <h5>Menu</h5>
+              <li className="navKimchiMenu">
+                <a href="#kimchiMenu">
+                  <h5>Kimchi Menu</h5>
+                </a>
+              </li>
+              <li className="navFoodMenu">
+                <a href="#foodMenu">
+                  <h5>Food Menu</h5>
                 </a>
               </li>
               <li className="navOrder">

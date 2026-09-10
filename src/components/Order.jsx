@@ -17,25 +17,42 @@ const Order = () => {
           <h1>Order</h1>
         </div>
         <OrderList />
-        <div className="serviceAreas">
-          <div className="orderButton">
-            <a
-              href="mailto:kimchilykitchen@gmail.com?subject=Your KIMCHILY Order&body=Please fill in your order details below%0D%0A%0D%0AName:%20%0D%0AContact Number:%20%0D%0ADelivery Address (or Pick Up):%20%0D%0A%0D%0AYour order quantities below%0D%0A%0D%0AOriginal Kimchi (R): %20%0D%0AOriginal Kimchi (L): %20%0D%0AAged Kimchi (R): %20%0D%0AAged Kimchi (L): %20%0D%0AExtra Spicy Kimchi (R): %20%0D%0AExtra Spicy Kimchi (L): %20%0D%0A%0D%0A%0D%0AThank you for your order!%0D%0A%0D%0AKIMCHILY"
-              target="_blank"
-            >
-              <div className="button">
-                <h4>
-                  {/* <MdMailOutline
+        <div className="orderButton">
+          <a
+            href="mailto:kimchilykitchen@gmail.com?subject=Your KIMCHILY Order&body=
+            Please fill in your order details below%0D%0A%0D%0A
+            Name:%20%0D%0A
+            Contact Number:%20%0D%0A
+            Delivery Address (or Pick Up):%20%0D%0A%0D%0A
+            Your order quantities below %0D%0A%0D%0A
+            KIMCHI MENU %20%0D%0A%0D%0A
+            Original Kimchi (R): %20%0D%0A
+            Original Kimchi (L): %20%0D%0A
+            Aged Kimchi (R): %20%0D%0A
+            Aged Kimchi (L): %20%0D%0A
+            Extra Spicy Kimchi (R): %20%0D%0A
+            Extra Spicy Kimchi (L): %20%0D%0A%0D%0A%0D%0A
+            FOOD MENU %20%0D%0A%0D%0A
+            Kimchi Fried Rice: %20%0D%0A
+            (%2B soy-garlic drumstick): %20%0D%0A%0D%0A%0D%0A%20%0D%0A
+            Thank you for your order!%0D%0A%0D%0A
+            KIMCHILY"
+            target="_blank"
+          >
+            <div className="button">
+              <h4>
+                {/* <MdMailOutline
                   size="2em"
                   id="phoneIcon"
                   style={{ marginRight: "3px" }}
                 /> */}
-                  Click here to order!
-                </h4>
-                <h6>(by email)</h6>
-              </div>
-            </a>
-          </div>
+                Click here to order!
+              </h4>
+              <h6>(by email)</h6>
+            </div>
+          </a>
+        </div>
+        <div className="serviceAreas">
           <div className="inlineOrder">
             {/* <div>
               <a href={`tel:${phoneNumber}`} title="Phone Number">
@@ -78,9 +95,20 @@ const Order = () => {
                   size="2em"
                   style={{ marginRight: "3px" }}
                 />
-                Pick up also available by appointment
+                Pick up available by appointment only
               </a>
             </h5>
+          </div>
+          <div id="catering" className="catering">
+            <div>
+              <h5>
+                <span>Party platters also available. </span>
+                <a href="#contact" style={{ fontWeight: 800 }}>
+                  Contact us
+                </a>
+                <span> to arrange for your event!</span>
+              </h5>
+            </div>
           </div>
         </div>
       </div>

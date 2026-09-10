@@ -1,9 +1,9 @@
 /* Container structure ----------------------------------------------------------------- */
 
-.menuContainer {
+.foodMenuContainer {
   scroll-margin-top: 60px;
   min-height: calc(100vh - 60px);
-  background-color: #921406;
+  background-color: #2f1b12;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -14,14 +14,14 @@
 
 /* Text style ----------------------------------------------------------------- */
 
-.menuContainer * {
+.foodMenuContainer * {
   color: #f4e1bd; /* All text yellow */
   margin-top: 0;
 }
 
 /* Header ----------------------------------------------------------------- */
 
-.menuHeader {
+.foodMenuHeader {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
@@ -29,13 +29,13 @@
 
 /* Img style ----------------------------------------------------------------- */
 
-.menuContainer img {
+.foodMenuContainer img {
   margin: 20px;
 }
 
 /* List spacing ---------------------------------------------------------------- */
 
-.menuGrid li {
+.foodMenuGrid li {
   max-width: 400px;
 }
 
@@ -46,7 +46,7 @@
 
 @media only screen and (max-width: 900px) {
   
-  .menuContainer {
+  .foodMenuContainer {
     height: auto;
     min-height: calc(100vh - 60px);
     padding: 50px 40px;

@@ -1,12 +1,12 @@
 import React from "react";
-import "./MenuItems.css";
+import "./KimchiItems.css";
 import fresh_kimchi from "../constants/fresh_kimchi.webp";
 import aged_kimchi from "../constants/aged_kimchi.webp";
 import spicy_kimchi from "../constants/spicy_kimchi.webp";
 
 const MenuItems = () => {
   return (
-    <div className="menuGrid">
+    <div className="kimchiMenuGrid">
       {/* Fresh Kimchi ----------------------------------------- */}
       <li>
         <h3>Original Kimchi</h3>
@@ -48,8 +48,8 @@ const MenuItems = () => {
         <img src={spicy_kimchi} alt="extra spicy kimchi" />
         <p>
           Turn up the heat with this extra spicy (Maeun) "매운" kimchi. Made
-          with Thai chilis, this is perfect for spice lovers. The intense heat
-          boosts appetite and relieves stress.
+          with Thai chili - the intense heat boosts metabolism and strengthens
+          the immune system.
         </p>
       </li>
     </div>
