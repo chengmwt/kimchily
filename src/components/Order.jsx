@@ -20,23 +20,23 @@ const Order = () => {
         <div className="orderButton">
           <a
             href="mailto:kimchilykitchen@gmail.com?subject=Your KIMCHILY Order&body=
-            Please fill in your order details below%0D%0A%0D%0A
-            Name:%20%0D%0A
-            Contact Number:%20%0D%0A
-            Delivery Address (or Pick Up):%20%0D%0A%0D%0A
-            Your order quantities below %0D%0A%0D%0A
-            KIMCHI MENU %20%0D%0A%0D%0A
-            Original Kimchi (R): %20%0D%0A
-            Original Kimchi (L): %20%0D%0A
-            Aged Kimchi (R): %20%0D%0A
-            Aged Kimchi (L): %20%0D%0A
-            Extra Spicy Kimchi (R): %20%0D%0A
-            Extra Spicy Kimchi (L): %20%0D%0A%0D%0A%0D%0A
-            FOOD MENU %20%0D%0A%0D%0A
-            Kimchi Fried Rice: %20%0D%0A
-            (%2B soy-garlic drumstick): %20%0D%0A%0D%0A%0D%0A%20%0D%0A
-            Thank you for your order!%0D%0A%0D%0A
-            KIMCHILY"
+Please fill in your order details below%0D%0A%0D%0A
+Name:%20%0D%0A
+Contact Number:%20%0D%0A
+Delivery Address (or Pick Up):%20%0D%0A%0D%0A
+Your order quantities below %0D%0A%0D%0A
+KIMCHI MENU %20%0D%0A%0D%0A
+Original Kimchi (R): %20%0D%0A
+Original Kimchi (L): %20%0D%0A
+Aged Kimchi (R): %20%0D%0A
+Aged Kimchi (L): %20%0D%0A
+Extra Spicy Kimchi (R): %20%0D%0A
+Extra Spicy Kimchi (L): %20%0D%0A%0D%0A%0D%0A
+FOOD MENU %20%0D%0A%0D%0A
+Kimchi Fried Rice: %20%0D%0A
+(%2B soy-garlic drumstick): %20%0D%0A%0D%0A%0D%0A%20%0D%0A
+Thank you for your order!%0D%0A%0D%0A
+KIMCHILY"
             target="_blank"
           >
             <div className="button">
