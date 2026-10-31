@@ -37,7 +37,7 @@ Kimchi Fried Rice: %20%0D%0A
 (%2B soy-garlic drumstick): %20%0D%0A%0D%0A%0D%0A%20%0D%0A
 Thank you for your order!%0D%0A%0D%0A
 KIMCHILY"
-            target="_blank"
+
           >
             <div className="button">
               <h4>
